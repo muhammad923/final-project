@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect, useCallback } from 'react';
 import { Movie, ViewState, User, WatchlistItem } from './types';
-import { tmdbService } from './services/tmdb.ts';
-import { dbService } from './services/db.ts';
-import { geminiService } from './services/gemini.ts';
+import { tmdbService } from './services/tmdb';
+import { dbService } from './services/db';
+import { geminiService } from './services/gemini';
 import { Layout } from './components/Layout';
 import { MovieCard } from './components/MovieCard';
 import { Auth } from './components/Auth';
